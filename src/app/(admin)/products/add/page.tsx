@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 import { useProducts } from "@/context/ProductContext";
@@ -246,9 +247,11 @@ export default function AddProductPage() {
                 <div className="border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-lg p-6 text-center">
                   {imagePreview ? (
                     <div className="relative">
-                      <img
+                      <Image
                         src={imagePreview}
                         alt="Product preview"
+                        width={128}
+                        height={128}
                         className="mx-auto h-32 w-32 object-cover rounded-lg"
                       />
                       <button

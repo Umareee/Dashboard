@@ -129,7 +129,7 @@ export default function OrdersPage() {
               {["all", "processing", "shipped", "delivered", "cancelled"].map((status) => (
                 <button
                   key={status}
-                  onClick={() => setStatusFilter(status as any)}
+                  onClick={() => setStatusFilter(status as "all" | "processing" | "shipped" | "delivered" | "cancelled")}
                   className={`px-3 py-2 text-xs font-medium rounded-md transition-colors capitalize ${
                     statusFilter === status
                       ? "bg-white text-brand-600 shadow-sm dark:bg-gray-700 dark:text-brand-400"
