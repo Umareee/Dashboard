@@ -3,10 +3,10 @@
 import React, { useState, useMemo } from "react";
 import { useCustomers, Order } from "@/context/CustomerContext";
 import Badge from "@/components/ui/badge/Badge";
-import { EyeIcon, UserIcon } from "@/icons";
+import { EyeIcon } from "@/icons";
 
 export default function OrdersPage() {
-  const { orders, customers } = useCustomers();
+  const { orders } = useCustomers();
   
   const [searchTerm, setSearchTerm] = useState("");
   const [statusFilter, setStatusFilter] = useState<"all" | "processing" | "shipped" | "delivered" | "cancelled">("all");

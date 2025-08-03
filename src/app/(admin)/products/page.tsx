@@ -24,7 +24,6 @@ export default function ProductsPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(7);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
-  const [filterDropdown, setFilterDropdown] = useState(false);
   const [deleteConfirm, setDeleteConfirm] = useState<string | null>(null);
   const [stockFilter, setStockFilter] = useState<"All" | "In Stock" | "Out of Stock">("All");
   const [searchTerm, setSearchTerm] = useState("");
@@ -127,7 +126,7 @@ export default function ProductsPage() {
           <h1 className="text-2xl font-bold text-black dark:text-white">Products</h1>
           <h2 className="text-xl font-semibold text-black dark:text-white mt-1">Products List</h2>
           <p className="text-gray-600 dark:text-gray-400 mt-1">
-            Track your store's progress to boost your sales.
+            Track your store progress to boost your sales.
           </p>
         </div>
         <div className="flex items-center space-x-3">
@@ -174,7 +173,7 @@ export default function ProductsPage() {
                   {["All", "In Stock", "Out of Stock"].map((filter) => (
                     <button
                       key={filter}
-                      onClick={() => setStockFilter(filter as any)}
+                      onClick={() => setStockFilter(filter as "All" | "In Stock" | "Out of Stock")}
                       className={`px-3 py-1.5 text-xs font-medium transition-colors ${
                         stockFilter === filter
                           ? "bg-brand-500 text-white"

@@ -5,11 +5,11 @@ import { useCustomers, Customer } from "@/context/CustomerContext";
 import { useToast } from "@/context/ToastContext";
 import CustomersStats from "@/components/customers/CustomersStats";
 import Badge from "@/components/ui/badge/Badge";
-import { TrashBinIcon, PencilIcon, EyeIcon, UserIcon } from "@/icons";
+import {  PencilIcon, EyeIcon, UserIcon } from "@/icons";
 import Image from "next/image";
 
 export default function CustomersPage() {
-  const { customers, orders, getCustomerOrders, updateCustomerStatus } = useCustomers();
+  const { customers, getCustomerOrders, updateCustomerStatus } = useCustomers();
   const { addToast } = useToast();
   
   const [searchTerm, setSearchTerm] = useState("");
