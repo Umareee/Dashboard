@@ -8,6 +8,9 @@ import {
   ChevronDownIcon,
   GridIcon,
   HorizontaLDots,
+  BoxIcon,
+  GroupIcon,
+  ListIcon,
 } from "../icons/index";
 type NavItem = {
   name: string;
@@ -21,6 +24,28 @@ const navItems: NavItem[] = [
     icon: <GridIcon />,
     name: "Dashboard",
     subItems: [{ name: "Ecommerce", path: "/", pro: false }],
+  },
+  {
+    icon: <BoxIcon />,
+    name: "Products",
+    subItems: [
+      { name: "Products List", path: "/products", pro: false },
+      { name: "Add Product", path: "/products/add", pro: false }
+    ],
+  },
+  {
+    icon: <GroupIcon />,
+    name: "Customers",
+    subItems: [
+      { name: "Customers List", path: "/customers", pro: false },
+    ],
+  },
+  {
+    icon: <ListIcon />,
+    name: "Orders",
+    subItems: [
+      { name: "Orders List", path: "/orders", pro: false },
+    ],
   },
 ];
 

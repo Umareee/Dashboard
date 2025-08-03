@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ORD-001",
+    "customerId": "1",
+    "customerName": "Alice Johnson",
+    "orderDate": "2024-01-28",
+    "status": "delivered",
+    "total": 156.75,
+    "items": [
+      { "productName": "iPhone 15 Pro", "quantity": 1, "price": 156.75 }
+    ],
+    "shippingAddress": "123 Main St, New York, NY 10001"
+  },
+  {
+    "id": "ORD-002",
+    "customerId": "2",
+    "customerName": "Bob Smith",
+    "orderDate": "2024-01-25",
+    "status": "shipped",
+    "total": 245.50,
+    "items": [
+      { "productName": "MacBook Air M2", "quantity": 1, "price": 245.50 }
+    ],
+    "shippingAddress": "456 Oak Ave, Los Angeles, CA 90210"
+  },
+  {
+    "id": "ORD-003",
+    "customerId": "4",
+    "customerName": "David Wilson",
+    "orderDate": "2024-01-30",
+    "status": "processing",
+    "total": 89.99,
+    "items": [
+      { "productName": "AirPods Pro", "quantity": 2, "price": 44.99 }
+    ],
+    "shippingAddress": "789 Pine Rd, Houston, TX 77001"
+  },
+  {
+    "id": "ORD-004",
+    "customerId": "5",
+    "customerName": "Emma Brown",
+    "orderDate": "2024-01-26",
+    "status": "delivered",
+    "total": 312.25,
+    "items": [
+      { "productName": "iPad Pro", "quantity": 1, "price": 312.25 }
+    ],
+    "shippingAddress": "321 Cedar St, Phoenix, AZ 85001"
+  },
+  {
+    "id": "ORD-005",
+    "customerId": "6",
+    "customerName": "Frank Miller",
+    "orderDate": "2024-01-22",
+    "status": "delivered",
+    "total": 78.50,
+    "items": [
+      { "productName": "Apple Watch", "quantity": 1, "price": 78.50 }
+    ],
+    "shippingAddress": "654 Elm Dr, Philadelphia, PA 19101"
+  },
+  {
+    "id": "ORD-006",
+    "customerId": "7",
+    "customerName": "Grace Lee",
+    "orderDate": "2024-01-29",
+    "status": "shipped",
+    "total": 445.75,
+    "items": [
+      { "productName": "MacBook Pro M3", "quantity": 1, "price": 445.75 }
+    ],
+    "shippingAddress": "987 Maple Ave, San Antonio, TX 78201"
+  },
+  {
+    "id": "ORD-007",
+    "customerId": "9",
+    "customerName": "Ivy Rodriguez",
+    "orderDate": "2024-01-31",
+    "status": "processing",
+    "total": 198.00,
+    "items": [
+      { "productName": "iPhone 15", "quantity": 2, "price": 99.00 }
+    ],
+    "shippingAddress": "147 Birch Ln, Dallas, TX 75201"
+  },
+  {
+    "id": "ORD-008",
+    "customerId": "10",
+    "customerName": "Jack Thompson",
+    "orderDate": "2024-01-27",
+    "status": "delivered",
+    "total": 167.25,
+    "items": [
+      { "productName": "iPad Air", "quantity": 1, "price": 167.25 }
+    ],
+    "shippingAddress": "258 Willow St, San Jose, CA 95101"
+  },
+  {
+    "id": "ORD-009",
+    "customerId": "11",
+    "customerName": "Karen White",
+    "orderDate": "2024-01-24",
+    "status": "cancelled",
+    "total": 89.50,
+    "items": [
+      { "productName": "AirPods", "quantity": 1, "price": 89.50 }
+    ],
+    "shippingAddress": "369 Spruce Rd, Austin, TX 73301"
+  },
+  {
+    "id": "ORD-010",
+    "customerId": "12",
+    "customerName": "Louis Martinez",
+    "orderDate": "2024-01-20",
+    "status": "delivered",
+    "total": 234.75,
+    "items": [
+      { "productName": "Apple TV 4K", "quantity": 1, "price": 234.75 }
+    ],
+    "shippingAddress": "741 Aspen Dr, Jacksonville, FL 32201"
+  },
+  {
+    "id": "ORD-011",
+    "customerId": "14",
+    "customerName": "Nathan Taylor",
+    "orderDate": "2024-01-23",
+    "status": "shipped",
+    "total": 123.99,
+    "items": [
+      { "productName": "Magic Keyboard", "quantity": 1, "price": 123.99 }
+    ],
+    "shippingAddress": "852 Poplar St, Columbus, OH 43201"
+  },
+  {
+    "id": "ORD-012",
+    "customerId": "15",
+    "customerName": "Olivia Moore",
+    "orderDate": "2024-01-21",
+    "status": "delivered",
+    "total": 278.50,
+    "items": [
+      { "productName": "Mac Studio", "quantity": 1, "price": 278.50 }
+    ],
+    "shippingAddress": "963 Hickory Ave, Charlotte, NC 28201"
+  },
+  {
+    "id": "ORD-013",
+    "customerId": "1",
+    "customerName": "Alice Johnson",
+    "orderDate": "2024-01-15",
+    "status": "delivered",
+    "total": 345.25,
+    "items": [
+      { "productName": "iMac 24-inch", "quantity": 1, "price": 345.25 }
+    ],
+    "shippingAddress": "123 Main St, New York, NY 10001"
+  },
+  {
+    "id": "ORD-014",
+    "customerId": "2",
+    "customerName": "Bob Smith",
+    "orderDate": "2024-01-10",
+    "status": "delivered",
+    "total": 167.75,
+    "items": [
+      { "productName": "HomePod mini", "quantity": 3, "price": 55.92 }
+    ],
+    "shippingAddress": "456 Oak Ave, Los Angeles, CA 90210"
+  },
+  {
+    "id": "ORD-015",
+    "customerId": "4",
+    "customerName": "David Wilson",
+    "orderDate": "2024-01-08",
+    "status": "delivered",
+    "total": 89.99,
+    "items": [
+      { "productName": "MagSafe Charger", "quantity": 2, "price": 44.99 }
+    ],
+    "shippingAddress": "789 Pine Rd, Houston, TX 77001"
+  }
+]
